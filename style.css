@@ -275,12 +275,23 @@ input {
     color: #fff;
 }
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
     body {
-        background-color: red;
-        font-size: 14px;
+        font-size: 12px;
     }
     .foot-container {
         display: block;
     }
-} */
+
+    header {
+        gap: 20px;
+        padding: 2.5rem 2.5rem;
+    }
+
+    header > img {
+        width: 40%;
+    }
+    header>div>ul>li>a {
+        padding-right: 1rem;
+    }
+}
