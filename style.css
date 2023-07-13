@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 5rem;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    /* flex-wrap: wrap; */
+}
+
+header>div>ul>li>a {
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+header>div>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+main>h1 {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+main>p {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+#btn1 {
+    border: none;
+    border-radius: 100px;
+    padding: 1rem 5rem;
+    background-color: hsl(198, 60%, 50%);
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #fff;
+}
+
+section {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: #fff;
+    padding-top: 10rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.box {
+    min-width: 500px;
+    min-height: 200px;
+    width: 35%;
+    text-align: center;
+}
+
+/* .box1 {
+    border: solid yellow;
+}
+.box2 {
+    border: solid red;
+}
+.box3 {
+    border: solid green;
+}
+.box4 {
+    border: solid purple;
+} */
+
+/* .box > h2 {
+    margin-bottom: 0.5rem;
+} */
+
+.box>p {
+    line-height: 1.2;
+}
+
+article {
+    width: 100%;
+}
+
+.article-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.article-box {
+    min-width: 50px;
+    min-height: 200px;
+    width: 35%;
+}
+
+.article-box>h1 {
+    margin-bottom: 1rem;
+}
+
+.article-box>p {
+    padding-bottom: 1em;
+}
+
+.article-box>a {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+hr {
+    border-color: #87ceeb;
+    width: 35%;
+}
+
+.article-box>img {
+    width: 2%;
+    border: none;
+
+}
+
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 6rem;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 25rem;
+
+}
+
+.testimonial {
+    min-height: 220px;
+    max-width: 420px;
+    padding: 2rem 1.5rem;
+    background-color: hsl(219, 30%, 18%);
+    /* position: relative; */
+
+}
+
+.testimonial>div>img {
+    width: 12%;
+    border-radius: 50%;
+}
+
+.testimonial>p {
+    margin-bottom: 2rem;
+}
+
+.test1 {
+    position: relative;
+}
+
+.test1>img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -10px;
+    top: -30px;
+    z-index: -100;
+}
+
+.testimonial>div {
+    display: flex;
+    gap: 10px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.founder {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 0.2rem;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 15rem 8rem 2rem 8rem;
+    color: #fff;
+    position: relative;
+    /* width: 100%; */
+    margin: 0;
+}
+
+footer>img {
+    margin-bottom: 2rem;
+
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.foot-container>div>p {
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.questions {
+    max-width: 60%;
+    min-height: 250px;
+    /* border: solid red; */
+    /* text-align: center; */
+    padding: 1rem 5rem;
+    background-color: hsl(218, 28%, 13%);
+    position: absolute;
+    left: 300px;
+    top: -150px;
+    box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+}
+
+.questions>h1 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.questions>p {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+input {
+    border-radius: 100px;
+    min-height: 40px;
+    width: 60%;
+    margin-right: 1rem;
+}
+
+#btn2 {
+    border: none;
+    border-radius: 100px;
+    padding: 0.7rem 2.5rem;
+    background-color: hsl(198, 60%, 50%);
+    background: linear-gradient(45deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: #fff;
+}
+
+/* @media (max-width: 640px) {
+    body {
+        background-color: red;
+        font-size: 14px;
+    }
+    .foot-container {
+        display: block;
+    }
+} */
