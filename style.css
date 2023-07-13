@@ -74,7 +74,7 @@ section {
     flex-wrap: wrap;
     gap: 2rem;
     color: #fff;
-    padding-top: 10rem;
+    padding-top: 9rem;
     padding-left: 9rem;
     padding-right: 9rem;
 }
@@ -118,7 +118,7 @@ article {
     align-items: center;
     padding-top: 5rem;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 }
 
 .article-box {
@@ -309,6 +309,10 @@ input {
         padding-left: 3.5rem;
         padding-right: 3.5rem;
     }
+    .container {
+        padding-top: 4rem;
+    }
+
     .container > .box > img {
         padding-bottom: 1.5rem;
     }
