@@ -302,7 +302,28 @@ input {
     }
 
     .box {
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    .container > .box > img {
+        padding-bottom: 1.5rem;
+    }
+    .container>.box>h2 {
+        padding-bottom: 1rem;
+    }
+
+    .article-container>.box > img {
+        width: 90%;
+    }
+
+    .testimonial {
+        min-height: 180px;
+        min-width: 300px;
+        padding: 2rem 1.5rem;
+
+    }
+    html,
+    body {
+        overflow-x: hidden;
     }
 }
