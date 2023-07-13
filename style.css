@@ -79,6 +79,14 @@ section {
     padding-right: 9rem;
 }
 
+.container>.box>img {
+    padding-bottom: 1rem;
+}
+
+.container>.box>h2 {
+    padding-bottom: 1rem;
+}
+
 .box {
     min-width: 500px;
     min-height: 200px;
