@@ -154,18 +154,19 @@ hr {
 
 .testimonial-container {
     display: flex;
-    justify-content: space-around;
-    padding: 5rem 6rem;
+    /* justify-content: space-around; */
+    padding: 5rem 3.5rem;
     color: #fff;
     flex-wrap: wrap;
-    gap: 10px;
+    gap:12px;
     padding-bottom: 25rem;
+    width: 100%;
 
 }
 
 .testimonial {
     min-height: 220px;
-    max-width: 420px;
+    max-width: 400px;
     padding: 2rem 1.5rem;
     background-color: hsl(219, 30%, 18%);
     /* position: relative; */
@@ -243,7 +244,9 @@ footer>img {
     padding: 1rem 5rem;
     background-color: hsl(218, 28%, 13%);
     position: absolute;
-    left: 300px;
+    /* left: 300px; */
+    left: 0;
+    margin-left: 300px;
     top: -150px;
     box-shadow: 3px 5px 10px 2px rgba(0, 0, 0, 0.5);
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
@@ -333,7 +336,9 @@ input {
         min-width: 350px;
         padding: 2rem 1.5rem;
         top: -200px;
-        left: 28px;
+        /* left: 28px; */
+        left: 0;
+        margin-left:28px;
     }
 
     input {
