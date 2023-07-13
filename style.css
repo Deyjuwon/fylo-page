@@ -280,7 +280,8 @@ input {
         font-size: 12px;
     }
     .foot-container {
-        display: block;
+        flex-direction: column;
+        gap: 20px;
     }
 
     header {
@@ -325,5 +326,19 @@ input {
     html,
     body {
         overflow-x: hidden;
+    }
+
+    .questions {
+        min-height: 180px;
+        min-width: 350px;
+        padding: 2rem 1.5rem;
+        top: -200px;
+        left: 28px;
+    }
+
+    input {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
