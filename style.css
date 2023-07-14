@@ -88,7 +88,7 @@ section {
 }
 
 .box {
-    min-width: 500px;
+    max-width: 500px;
     min-height: 200px;
     width: 35%;
     text-align: center;
@@ -162,11 +162,11 @@ hr {
 
 .testimonial-container {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-around;
     padding: 5rem 3.5rem;
     color: #fff;
     flex-wrap: wrap;
-    gap:12px;
+    gap:10px;
     padding-bottom: 25rem;
     width: 100%;
 
@@ -174,7 +174,7 @@ hr {
 
 .testimonial {
     min-height: 220px;
-    max-width: 400px;
+    max-width: 55vh;
     padding: 2rem 1.5rem;
     background-color: hsl(219, 30%, 18%);
     /* position: relative; */
